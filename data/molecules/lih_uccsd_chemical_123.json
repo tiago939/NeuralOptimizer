@@ -1,0 +1,339 @@
+{
+  "method": "llm_direct_absolute",
+  "model": "gpt-6-astra",
+  "molecule": "LiH",
+  "molecule_spec": {
+    "name": "LiH",
+    "atoms": [
+      [
+        "Li",
+        0.0,
+        0.0,
+        0.0
+      ],
+      [
+        "H",
+        0.0,
+        0.0,
+        1.6
+      ]
+    ],
+    "basis": "sto3g",
+    "charge": 0,
+    "multiplicity": 1,
+    "active_space": {
+      "electrons": 2,
+      "spatial_orbitals": 3
+    },
+    "units": "angstrom"
+  },
+  "molecule_sha256": "87acae202cb1df899170e3c254b2fd539870b7432aad3f9ed57a7db8764c3876",
+  "config": {
+    "ansatz": "uccsd",
+    "prompt_mode": "chemical",
+    "shots_per_energy_query": 0,
+    "noise": false,
+    "reveal_noise": false,
+    "init_seed": 123,
+    "init_scale": 0.15,
+    "shot_seed": 2026,
+    "zero_feedback": true,
+    "reasoning_effort": null
+  },
+  "hamiltonian": [
+    {
+      "pauli": "IIIIII",
+      "coefficient": -0.46007433568561196
+    },
+    {
+      "pauli": "IIIIIZ",
+      "coefficient": 0.026694013600565253
+    },
+    {
+      "pauli": "IIIIYY",
+      "coefficient": 0.012080475386041897
+    },
+    {
+      "pauli": "IIIIXX",
+      "coefficient": 0.012080475386041897
+    },
+    {
+      "pauli": "IIIIZI",
+      "coefficient": -0.1457163207398551
+    },
+    {
+      "pauli": "IIIZII",
+      "coefficient": -0.16165347146453596
+    },
+    {
+      "pauli": "IIZIII",
+      "coefficient": 0.026694013600565204
+    },
+    {
+      "pauli": "IYYIII",
+      "coefficient": 0.012080475386041902
+    },
+    {
+      "pauli": "IXXIII",
+      "coefficient": 0.012080475386041902
+    },
+    {
+      "pauli": "IZIIII",
+      "coefficient": -0.14571632073985516
+    },
+    {
+      "pauli": "ZIIIII",
+      "coefficient": -0.16165347146453596
+    },
+    {
+      "pauli": "IIIIZZ",
+      "coefficient": 0.05263651530244971
+    },
+    {
+      "pauli": "IIIZIZ",
+      "coefficient": 0.06168720467930191
+    },
+    {
+      "pauli": "IIZIIZ",
+      "coefficient": 0.12182774168311468
+    },
+    {
+      "pauli": "IYYIIZ",
+      "coefficient": 0.012144898067805464
+    },
+    {
+      "pauli": "IXXIIZ",
+      "coefficient": 0.012144898067805464
+    },
+    {
+      "pauli": "IZIIIZ",
+      "coefficient": 0.055902511197648136
+    },
+    {
+      "pauli": "ZIIIIZ",
+      "coefficient": 0.06754287309668525
+    },
+    {
+      "pauli": "IIIZYY",
+      "coefficient": 0.0033773476180264175
+    },
+    {
+      "pauli": "IIIZXX",
+      "coefficient": 0.0033773476180264175
+    },
+    {
+      "pauli": "IIZIYY",
+      "coefficient": 0.012144898067805464
+    },
+    {
+      "pauli": "IIZIXX",
+      "coefficient": 0.012144898067805464
+    },
+    {
+      "pauli": "IYYIYY",
+      "coefficient": 0.003265995895198422
+    },
+    {
+      "pauli": "IXXIYY",
+      "coefficient": 0.003265995895198422
+    },
+    {
+      "pauli": "IYYIXX",
+      "coefficient": 0.003265995895198422
+    },
+    {
+      "pauli": "IXXIXX",
+      "coefficient": 0.003265995895198422
+    },
+    {
+      "pauli": "IZIIYY",
+      "coefficient": -0.0018710430187533662
+    },
+    {
+      "pauli": "IZIIXX",
+      "coefficient": -0.0018710430187533662
+    },
+    {
+      "pauli": "ZIIIYY",
+      "coefficient": -0.0014418755603528583
+    },
+    {
+      "pauli": "ZIIIXX",
+      "coefficient": -0.0014418755603528583
+    },
+    {
+      "pauli": "YZYYZY",
+      "coefficient": 0.0058556684173833385
+    },
+    {
+      "pauli": "XZXYZY",
+      "coefficient": 0.0058556684173833385
+    },
+    {
+      "pauli": "YZYXZX",
+      "coefficient": 0.0058556684173833385
+    },
+    {
+      "pauli": "XZXXZX",
+      "coefficient": 0.0058556684173833385
+    },
+    {
+      "pauli": "YYIYZY",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "XXIYZY",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "YYIXZX",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "XXIXZX",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "IIIZZI",
+      "coefficient": 0.06017866229705011
+    },
+    {
+      "pauli": "IIZIZI",
+      "coefficient": 0.055902511197648136
+    },
+    {
+      "pauli": "IYYIZI",
+      "coefficient": -0.0018710430187533662
+    },
+    {
+      "pauli": "IXXIZI",
+      "coefficient": -0.0018710430187533662
+    },
+    {
+      "pauli": "IZIIZI",
+      "coefficient": 0.08447056786924284
+    },
+    {
+      "pauli": "ZIIIZI",
+      "coefficient": 0.07049783620239168
+    },
+    {
+      "pauli": "YZYYYI",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "XZXYYI",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "YZYXXI",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "XZXXXI",
+      "coefficient": 0.004819223178379275
+    },
+    {
+      "pauli": "YYIYYI",
+      "coefficient": 0.010319173905341575
+    },
+    {
+      "pauli": "XXIYYI",
+      "coefficient": 0.010319173905341575
+    },
+    {
+      "pauli": "YYIXXI",
+      "coefficient": 0.010319173905341575
+    },
+    {
+      "pauli": "XXIXXI",
+      "coefficient": 0.010319173905341575
+    },
+    {
+      "pauli": "IIZZII",
+      "coefficient": 0.06754287309668525
+    },
+    {
+      "pauli": "IYYZII",
+      "coefficient": -0.0014418755603528583
+    },
+    {
+      "pauli": "IXXZII",
+      "coefficient": -0.0014418755603528583
+    },
+    {
+      "pauli": "IZIZII",
+      "coefficient": 0.07049783620239168
+    },
+    {
+      "pauli": "ZIIZII",
+      "coefficient": 0.0782363777898524
+    },
+    {
+      "pauli": "IZZIII",
+      "coefficient": 0.05263651530244971
+    },
+    {
+      "pauli": "ZIZIII",
+      "coefficient": 0.06168720467930191
+    },
+    {
+      "pauli": "ZYYIII",
+      "coefficient": 0.0033773476180264175
+    },
+    {
+      "pauli": "ZXXIII",
+      "coefficient": 0.0033773476180264175
+    },
+    {
+      "pauli": "ZZIIII",
+      "coefficient": 0.06017866229705011
+    }
+  ],
+  "energy_offset": -6.804012298302052,
+  "ground_energy": -7.862919336652188,
+  "reference_kind": "active_space_sector_FCI",
+  "hf_state_index": 9,
+  "hf_energy": -7.861864769808653,
+  "full_matrix_min": -7.862919336652187,
+  "parameter_order": [
+    "theta_0000",
+    "theta_0001",
+    "theta_0002",
+    "theta_0003",
+    "theta_0004",
+    "theta_0005",
+    "theta_0006",
+    "theta_0007"
+  ],
+  "trace": [
+    {
+      "step": 1,
+      "evaluations": 1,
+      "shots": 0,
+      "theta": [
+        -0.01025020000000021,
+        0.0,
+        -0.01025020000000021,
+        0.0,
+        -0.018759300000000145,
+        0.0,
+        0.0,
+        -0.03459779999999979
+      ],
+      "estimated_energy": -7.862919336652181,
+      "exact_energy": -7.862919336652181,
+      "exact_gap": 7.105427357601002e-15,
+      "mechanism": "Targets the lowest-energy spin-symmetric block: negative paired-double rotations capture the dominant correlation, while equal small negative singles account for induced orbital relaxation. The remaining rotations are zero because they couple to an orbital-parity sector disconnected from the reference by this Hamiltonian.",
+      "response_id": "resp_0aa3bdfcf25936d6006aeb9065559c87d292b2f0b9de1152b7",
+      "input_tokens": 4765,
+      "output_tokens": 4719,
+      "api_wall_seconds": 128.04519852299927
+    }
+  ],
+  "system_prompt": "You optimize the expectation value of a supplied Hamiltonian using a fixed parameterized quantum circuit. Choose one complete absolute numerical parameter vector in radians. Do not modify the circuit or Hamiltonian. Infer parameter order from the OpenQASM 3 input declarations in their textual order. Qiskit Pauli labels run from q[n-1] on the left to q[0] on the right. Use only the provided circuit, Hamiltonian, chemical context (when present), optional noise model, and previous angle-energy observations. Return only a JSON object with keys \"theta\" (numeric array) and \"mechanism\" (brief, testable reasoning).",
+  "user_prompts": [
+    "CIRCUIT_OPENQASM_3:\n\nOPENQASM 3.0;\ninclude \"stdgates.inc\";\ninput float[64] theta_0000;\ninput float[64] theta_0001;\ninput float[64] theta_0002;\ninput float[64] theta_0003;\ninput float[64] theta_0004;\ninput float[64] theta_0005;\ninput float[64] theta_0006;\ninput float[64] theta_0007;\nqubit[6] q;\nU(pi, 0, pi) q[0];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[1];\nU(-theta_0000, 0, 0) q[0];\nU(-theta_0000, 0, 0) q[1];\ncx q[0], q[1];\nU(pi/2, 0, pi) q[0];\nU(pi/2, 0, pi) q[1];\ncx q[0], q[1];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[2];\nU(-theta_0001, 0, 0) q[0];\nU(-theta_0001, 0, 0) q[2];\ncx q[0], q[2];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[1];\nU(pi/2, 0, pi) q[1];\ncx q[0], q[1];\nU(pi, 0, pi) q[3];\nU(pi/2, 0, pi) q[3];\ncx q[3], q[4];\nU(-theta_0002, 0, 0) q[3];\nU(-theta_0002, 0, 0) q[4];\ncx q[3], q[4];\nU(pi/2, 0, pi) q[3];\nU(pi/2, 0, pi) q[4];\ncx q[3], q[4];\nU(pi/2, 0, pi) q[3];\ncx q[3], q[5];\nU(-theta_0003, 0, 0) q[3];\nU(-theta_0003, 0, 0) q[5];\ncx q[3], q[5];\nU(pi/2, 0, pi) q[3];\ncx q[3], q[4];\nU(0, 0, pi/2) q[3];\ncx q[0], q[3];\nU(pi/2, 0, pi) q[0];\nU(pi/2, 0, pi) q[4];\nU(0, 0, pi/2) q[4];\ncx q[0], q[4];\nU(0.25*theta_0004, 0, 0) q[0];\nU(0.25*theta_0004, 0, 0) q[4];\ncx q[1], q[4];\ncx q[1], q[0];\nU((-0.25)*theta_0004, 0, 0) q[0];\ncx q[3], q[0];\nU((-0.25)*theta_0004, 0, 0) q[0];\ncx q[1], q[0];\nU(0.25*theta_0004, 0, 0) q[0];\nU((-0.25)*theta_0004, 0, 0) q[4];\ncx q[3], q[4];\nU((-0.25)*theta_0004, 0, 0) q[4];\ncx q[1], q[4];\nU(0.25*theta_0004, 0, 0) q[4];\ncx q[1], q[4];\ncx q[1], q[0];\ncx q[3], q[4];\ncx q[3], q[0];\ncx q[1], q[0];\ncx q[1], q[4];\ncx q[0], q[4];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[3];\ncx q[0], q[1];\nU(0, 0, -pi/2) q[3];\nU(0, 0, pi/2) q[3];\nU(0, 0, -pi/2) q[4];\nU(pi/2, 0, pi) q[4];\ncx q[0], q[4];\ncx q[0], q[1];\ncx q[0], q[3];\nU(pi/2, 0, pi) q[0];\nU(0, 0, pi/2) q[5];\ncx q[0], q[5];\nU(0.25*theta_0005, 0, 0) q[0];\nU(0.25*theta_0005, 0, 0) q[5];\ncx q[1], q[5];\ncx q[1], q[0];\nU((-0.25)*theta_0005, 0, 0) q[0];\ncx q[3], q[0];\nU((-0.25)*theta_0005, 0, 0) q[0];\ncx q[1], q[0];\nU(0.25*theta_0005, 0, 0) q[0];\nU((-0.25)*theta_0005, 0, 0) q[5];\ncx q[3], q[5];\nU((-0.25)*theta_0005, 0, 0) q[5];\ncx q[1], q[5];\nU(0.25*theta_0005, 0, 0) q[5];\ncx q[1], q[5];\ncx q[1], q[0];\ncx q[3], q[5];\ncx q[3], q[0];\ncx q[1], q[0];\ncx q[1], q[5];\ncx q[0], q[5];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[3];\ncx q[0], q[1];\ncx q[0], q[4];\nU(pi/2, 0, pi) q[1];\ncx q[0], q[1];\ncx q[0], q[2];\nU(0, 0, -pi/2) q[3];\nU(0, 0, pi/2) q[3];\ncx q[0], q[3];\nU(pi/2, 0, pi) q[0];\nU(pi/2, 0, pi) q[4];\nU(0, 0, pi/2) q[4];\ncx q[0], q[4];\nU(0.25*theta_0006, 0, 0) q[0];\nU(0.25*theta_0006, 0, 0) q[4];\ncx q[2], q[4];\ncx q[2], q[0];\nU((-0.25)*theta_0006, 0, 0) q[0];\ncx q[3], q[0];\nU((-0.25)*theta_0006, 0, 0) q[0];\ncx q[2], q[0];\nU(0.25*theta_0006, 0, 0) q[0];\nU((-0.25)*theta_0006, 0, 0) q[4];\ncx q[3], q[4];\nU((-0.25)*theta_0006, 0, 0) q[4];\ncx q[2], q[4];\nU(0.25*theta_0006, 0, 0) q[4];\ncx q[2], q[4];\ncx q[2], q[0];\ncx q[3], q[4];\ncx q[3], q[0];\ncx q[2], q[0];\ncx q[2], q[4];\ncx q[0], q[4];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[3];\ncx q[0], q[2];\ncx q[0], q[1];\nU(pi/2, 0, pi) q[1];\nU(pi/2, 0, pi) q[1];\ncx q[0], q[1];\nU(0, 0, -pi/2) q[3];\nU(0, 0, pi/2) q[3];\nU(0, 0, -pi/2) q[4];\nU(pi/2, 0, pi) q[4];\ncx q[0], q[4];\ncx q[0], q[2];\ncx q[0], q[3];\nU(pi/2, 0, pi) q[0];\nU(0, 0, -pi/2) q[5];\nU(0, 0, pi/2) q[5];\ncx q[0], q[5];\nU(0.25*theta_0007, 0, 0) q[0];\nU(0.25*theta_0007, 0, 0) q[5];\ncx q[2], q[5];\ncx q[2], q[0];\nU((-0.25)*theta_0007, 0, 0) q[0];\ncx q[3], q[0];\nU((-0.25)*theta_0007, 0, 0) q[0];\ncx q[2], q[0];\nU(0.25*theta_0007, 0, 0) q[0];\nU((-0.25)*theta_0007, 0, 0) q[5];\ncx q[3], q[5];\nU((-0.25)*theta_0007, 0, 0) q[5];\ncx q[2], q[5];\nU(0.25*theta_0007, 0, 0) q[5];\ncx q[2], q[5];\ncx q[2], q[0];\ncx q[3], q[5];\ncx q[3], q[0];\ncx q[2], q[0];\ncx q[2], q[5];\ncx q[0], q[5];\nU(pi/2, 0, pi) q[0];\ncx q[0], q[3];\ncx q[0], q[2];\ncx q[0], q[4];\ncx q[0], q[1];\nU(pi/2, 0, pi) q[1];\nU(0, 0, -pi/2) q[3];\nU(pi/2, 0, pi) q[4];\nU(0, 0, -pi/2) q[5];\n\n\nHAMILTONIAN_PAULI_TERMS:\n\n[\n  {\n    \"pauli\": \"IIIIII\",\n    \"coefficient\": -0.46007433568561196\n  },\n  {\n    \"pauli\": \"IIIIIZ\",\n    \"coefficient\": 0.026694013600565253\n  },\n  {\n    \"pauli\": \"IIIIYY\",\n    \"coefficient\": 0.012080475386041897\n  },\n  {\n    \"pauli\": \"IIIIXX\",\n    \"coefficient\": 0.012080475386041897\n  },\n  {\n    \"pauli\": \"IIIIZI\",\n    \"coefficient\": -0.1457163207398551\n  },\n  {\n    \"pauli\": \"IIIZII\",\n    \"coefficient\": -0.16165347146453596\n  },\n  {\n    \"pauli\": \"IIZIII\",\n    \"coefficient\": 0.026694013600565204\n  },\n  {\n    \"pauli\": \"IYYIII\",\n    \"coefficient\": 0.012080475386041902\n  },\n  {\n    \"pauli\": \"IXXIII\",\n    \"coefficient\": 0.012080475386041902\n  },\n  {\n    \"pauli\": \"IZIIII\",\n    \"coefficient\": -0.14571632073985516\n  },\n  {\n    \"pauli\": \"ZIIIII\",\n    \"coefficient\": -0.16165347146453596\n  },\n  {\n    \"pauli\": \"IIIIZZ\",\n    \"coefficient\": 0.05263651530244971\n  },\n  {\n    \"pauli\": \"IIIZIZ\",\n    \"coefficient\": 0.06168720467930191\n  },\n  {\n    \"pauli\": \"IIZIIZ\",\n    \"coefficient\": 0.12182774168311468\n  },\n  {\n    \"pauli\": \"IYYIIZ\",\n    \"coefficient\": 0.012144898067805464\n  },\n  {\n    \"pauli\": \"IXXIIZ\",\n    \"coefficient\": 0.012144898067805464\n  },\n  {\n    \"pauli\": \"IZIIIZ\",\n    \"coefficient\": 0.055902511197648136\n  },\n  {\n    \"pauli\": \"ZIIIIZ\",\n    \"coefficient\": 0.06754287309668525\n  },\n  {\n    \"pauli\": \"IIIZYY\",\n    \"coefficient\": 0.0033773476180264175\n  },\n  {\n    \"pauli\": \"IIIZXX\",\n    \"coefficient\": 0.0033773476180264175\n  },\n  {\n    \"pauli\": \"IIZIYY\",\n    \"coefficient\": 0.012144898067805464\n  },\n  {\n    \"pauli\": \"IIZIXX\",\n    \"coefficient\": 0.012144898067805464\n  },\n  {\n    \"pauli\": \"IYYIYY\",\n    \"coefficient\": 0.003265995895198422\n  },\n  {\n    \"pauli\": \"IXXIYY\",\n    \"coefficient\": 0.003265995895198422\n  },\n  {\n    \"pauli\": \"IYYIXX\",\n    \"coefficient\": 0.003265995895198422\n  },\n  {\n    \"pauli\": \"IXXIXX\",\n    \"coefficient\": 0.003265995895198422\n  },\n  {\n    \"pauli\": \"IZIIYY\",\n    \"coefficient\": -0.0018710430187533662\n  },\n  {\n    \"pauli\": \"IZIIXX\",\n    \"coefficient\": -0.0018710430187533662\n  },\n  {\n    \"pauli\": \"ZIIIYY\",\n    \"coefficient\": -0.0014418755603528583\n  },\n  {\n    \"pauli\": \"ZIIIXX\",\n    \"coefficient\": -0.0014418755603528583\n  },\n  {\n    \"pauli\": \"YZYYZY\",\n    \"coefficient\": 0.0058556684173833385\n  },\n  {\n    \"pauli\": \"XZXYZY\",\n    \"coefficient\": 0.0058556684173833385\n  },\n  {\n    \"pauli\": \"YZYXZX\",\n    \"coefficient\": 0.0058556684173833385\n  },\n  {\n    \"pauli\": \"XZXXZX\",\n    \"coefficient\": 0.0058556684173833385\n  },\n  {\n    \"pauli\": \"YYIYZY\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"XXIYZY\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"YYIXZX\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"XXIXZX\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"IIIZZI\",\n    \"coefficient\": 0.06017866229705011\n  },\n  {\n    \"pauli\": \"IIZIZI\",\n    \"coefficient\": 0.055902511197648136\n  },\n  {\n    \"pauli\": \"IYYIZI\",\n    \"coefficient\": -0.0018710430187533662\n  },\n  {\n    \"pauli\": \"IXXIZI\",\n    \"coefficient\": -0.0018710430187533662\n  },\n  {\n    \"pauli\": \"IZIIZI\",\n    \"coefficient\": 0.08447056786924284\n  },\n  {\n    \"pauli\": \"ZIIIZI\",\n    \"coefficient\": 0.07049783620239168\n  },\n  {\n    \"pauli\": \"YZYYYI\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"XZXYYI\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"YZYXXI\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"XZXXXI\",\n    \"coefficient\": 0.004819223178379275\n  },\n  {\n    \"pauli\": \"YYIYYI\",\n    \"coefficient\": 0.010319173905341575\n  },\n  {\n    \"pauli\": \"XXIYYI\",\n    \"coefficient\": 0.010319173905341575\n  },\n  {\n    \"pauli\": \"YYIXXI\",\n    \"coefficient\": 0.010319173905341575\n  },\n  {\n    \"pauli\": \"XXIXXI\",\n    \"coefficient\": 0.010319173905341575\n  },\n  {\n    \"pauli\": \"IIZZII\",\n    \"coefficient\": 0.06754287309668525\n  },\n  {\n    \"pauli\": \"IYYZII\",\n    \"coefficient\": -0.0014418755603528583\n  },\n  {\n    \"pauli\": \"IXXZII\",\n    \"coefficient\": -0.0014418755603528583\n  },\n  {\n    \"pauli\": \"IZIZII\",\n    \"coefficient\": 0.07049783620239168\n  },\n  {\n    \"pauli\": \"ZIIZII\",\n    \"coefficient\": 0.0782363777898524\n  },\n  {\n    \"pauli\": \"IZZIII\",\n    \"coefficient\": 0.05263651530244971\n  },\n  {\n    \"pauli\": \"ZIZIII\",\n    \"coefficient\": 0.06168720467930191\n  },\n  {\n    \"pauli\": \"ZYYIII\",\n    \"coefficient\": 0.0033773476180264175\n  },\n  {\n    \"pauli\": \"ZXXIII\",\n    \"coefficient\": 0.0033773476180264175\n  },\n  {\n    \"pauli\": \"ZZIIII\",\n    \"coefficient\": 0.06017866229705011\n  }\n]\n\nCHEMICAL_CONTEXT:\n\n{\n  \"molecule\": \"LiH\",\n  \"geometry_angstrom\": [\n    [\n      \"Li\",\n      0.0,\n      0.0,\n      0.0\n    ],\n    [\n      \"H\",\n      0.0,\n      0.0,\n      1.6\n    ]\n  ],\n  \"basis\": \"STO-3G\",\n  \"charge\": 0,\n  \"multiplicity\": 1,\n  \"full_spatial_orbitals\": 6,\n  \"full_num_particles\": [\n    2,\n    2\n  ],\n  \"active_spatial_orbitals\": 3,\n  \"active_num_particles\": [\n    1,\n    1\n  ],\n  \"active_orbital_indices\": null,\n  \"n_qubits\": 6,\n  \"ansatz\": \"UCCSD\",\n  \"mapping\": \"Jordan-Wigner\",\n  \"reference_state\": \"Hartree-Fock; preparation included in the OpenQASM\",\n  \"hf_basis_index\": 9,\n  \"initial_theta\": [\n    0.05470555897444304,\n    -0.1338536943593332,\n    -0.08389203816821658,\n    -0.09468845679039908,\n    -0.09722822967449089,\n    0.09362835199673208,\n    0.12700349940811692,\n    -0.06702768066086813\n  ],\n  \"shots_per_energy_query\": 0,\n  \"noise\": false,\n  \"energy_convention\": \"Hamiltonian Pauli coefficients describe electronic energy. Observed feedback uses electronic energy, excluding additive nuclear and frozen-core offsets.\"\n}"
+  ],
+  "energy_feedback_convention": "electronic, excludes energy_offset"
+}
